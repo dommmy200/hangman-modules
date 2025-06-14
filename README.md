@@ -7,7 +7,7 @@ Use the Rust language to build the game of Hangman
 - This is a basic console-based Hangman game programmed with the Rust language. The user is presented with a sequence of characters that represent a word. S/he makes guesses which, if correct or wrong, is responded accordingly and counter in incremented as a reminder of how much guesses made and how much left to either win to terminate the game.
 
 ### Purpose
-- This console application provides my me the ability to understand the basic of the Rust language and the safety measures embedded through utilization of the concept of Ownership and Borrowing. This particular version of the game utilizes four modules: utils.rs, game.rs, models.rs, and main.rs to achieve the same purpose as using only main.rs to code the game.
+- This console application provides me the ability to understand the basic of the Rust language and the safety measures embedded through utilization of the concept of Ownership and Borrowing. This particular version of the game utilizes four modules: utils.rs, game.rs, models.rs, and main.rs to achieve the same purpose as using only main.rs to code the game.
 
 ### Video Demonstration
 
