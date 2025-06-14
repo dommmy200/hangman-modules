@@ -2,6 +2,7 @@ use crate::models::{Root};
 use rand::seq::SliceRandom;
 use std::fs;
 use std::io::{self};
+use console::style; // For colored output (optional, can be removed if not needed)
 
 // --- GLOBAL CONSTANTS ---
 pub const MAX_WRONG_GUESSES: u8 = 6;
@@ -15,11 +16,16 @@ pub fn load_words_from_json() -> Result<Root, Box<dyn std::error::Error>> {
     Ok(root)
 }
 
+fn clear_screen() {
+    print!("\x1B[2J\x1B[1;1H");
+}
 pub fn select_random_word<'a>(word_list: &'a Vec<String>) -> &'a str {
     word_list.choose(&mut rand::thread_rng()).unwrap()
 }
 pub fn get_word_list_choice(all_words: &Root) -> Option<&Vec<String>> {
     loop {
+        clear_screen(); // Clear the screen for a fresh start
+        println!("{}", style("Welcome to Hangman!").bold().green());
         println!("\nChoose a word list for Hangman:");
         println!("1. 4-letter words");
         println!("2. 5-letter words");
