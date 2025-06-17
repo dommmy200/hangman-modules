@@ -10,6 +10,7 @@ Use the Rust language to build the game of Hangman
 - This console application provides me the ability to understand the basic of the Rust language and the safety measures embedded through utilization of the concept of Ownership and Borrowing. This particular version of the game utilizes four modules: utils.rs, game.rs, models.rs, and main.rs to achieve the same purpose as using only main.rs to code the game.
 
 ### Video Demonstration
+- [Hangman Game](https://youtu.be/TOcHvuNWG50)
 
 ## Development Environment
 
