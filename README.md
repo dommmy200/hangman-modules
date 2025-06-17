@@ -29,4 +29,6 @@ Use the Rust language to build the game of Hangman
 - [Rust4Beginners](https://youtu.be/MsocPEZBd-M?si=ragJLuZ3NGi6bJHH)
 - [Rust4Beginners](https://youtu.be/MsocPEZBd-M?si=ragJLuZ3NGi6bJHH)
 - [​​IDE Setup For Rust Development](https://youtu.be/x_iZEK6Rww4?si=DgPuFiINiXG3_FdT)
-- [Rust Programming](https://www.youtube.com/watch?v=rQ_J9WH6CGk) 
+- [Rust Programming](https://www.youtube.com/watch?v=rQ_J9WH6CGk)
+- [ScreenPal Full Training for Beginners](https://youtu.be/UPxsFhTCFmM?si=DlQKCJgvAGenWiK5)
+- [ScreenPal Free Screen Recorder](https://youtu.be/zpR7JwZLWvo?si=vQJ3zFCaSfN-KhTF)
