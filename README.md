@@ -18,8 +18,7 @@ Use the Rust language to build the game of Hangman
 - VS Code
 - Git
 - GitHub
-- Canva Video Editor
-- Microsoft Stream
+- ScreenPal
 
 ### Programming Language Used
 - Rust
